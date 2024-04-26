@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Gameboy",
+      "valor": 100,
+      "imagem": "assets/item-gameboy.svg"
+    },
+    {
+      "id": 2,
+      "nome": "Stormtrooper",
+      "valor": 20,
+      "imagem": "assets/item-stormtrooper.svg"
+    },
+    {
+      "id": 3,
+      "nome": "Gameboy",
+      "valor": 60,
+      "imagem": "assets/item-gameboy.svg"
+    },
+    {
+      "id": 4,
+      "nome": "Gameboy",
+      "valor": 100,
+      "imagem": "assets/item-gameboy.svg"
+    },
+    {
+      "id": 5,
+      "nome": "Stormtrooper",
+      "valor": 20,
+      "imagem": "assets/item-stormtrooper.svg"
+    },
+    {
+      "id": 6,
+      "nome": "Gameboy",
+      "valor": 60,
+      "imagem": "assets/item-gameboy.svg"
+    }
+  ]
+}

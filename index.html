@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeeK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fonte do Projeto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section class="header">
+
+        <div class="logo">
+            <img src="assets/logo2.svg" alt="logo" class=logo__img">
+            <span class="logo__name">AluraGeeK</span>
+        </div>
+    </section>
+
+    <section class="main">
+
+        <div class="main__products__list">
+
+            <h2 class="main__products__list-title">Meus Produtos</h2>
+
+            <div id="productList" class="main__products__list__container">
+
+                <div class="product__card">
+
+                    <div class="product__card-image">
+                        <img src="assets/item-gameboy.svg" alt="Stormtrooper">
+                    </div>
+
+                    <span class="product__card-name">
+                        Stormtrooper
+                    </span>
+
+                    <div class="product__card-footer">
+
+                        <span class="value">R$ 60,00</span>
+                        <button class="btn-remove">
+                            <img src="assets/icon-delete.svg" alt="">
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="product__card">
+
+                    <div class="product__card-image">
+                        <img src="assets/item-stormtrooper.svg" alt="Stormtrooper">
+                    </div>
+
+                    <span class="product__card-name">
+                        Stormtrooper
+                    </span>
+
+                    <div class="product__card-footer">
+
+                        <span class="value">R$ 60,00</span>
+                        <button class="btn-remove">
+                            <img src="assets/icon-delete.svg" alt="">
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <section class="main__products__form">
+
+            <h2 class="main__products__form-title">ADICIONAR PRODUTO:</h2>
+
+            <form id="formProduct">
+
+                <span class="product-info-message" id="formProductInfoMessage">
+                    Erro ao pesquisar produtos, erro:
+                </span>
+
+                <input type="text" id="nome" name="nome" value="" placeholder="Nome..." />
+
+                <input type="text" id="valor" name="valor" value="" placeholder="Valor..." />
+
+                <input type="text" id="imagem" name="imagem" value="" placeholder="Imagem..." />
+
+                <div class="main__products__form-actions">
+
+                    <button class="btn-guardar" onclick="submitFormProduct(event)" type="button">
+                        Guardar
+                    </button>
+                    <button class="btn-limpar" onclick="clearFormProduct()" type="button">
+                        Limpar
+                    </button>
+
+                </div>
+            </form>
+
+        </section>
+
+    </section>
+
+    <section class="footer">
+        <div class="footer__rodape">
+            <div class="logo">
+                <img src="assets/logo2.svg" alt="logo" class=logo__img">
+                <span class="logo__name">AluraGeeK</span>
+            </div>
+            <p>Desenvolvido por C.J</p>
+            <p>Alura Latam - 2024</p>
+        </div>
+    </section>
+
+    <script src="js/products-service.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
